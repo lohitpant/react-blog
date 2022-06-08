@@ -1,0 +1,22 @@
+.footer-container{
+    position: absolute;
+    bottom: -50px;
+    background-color: #D291BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer-container h4{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.fav{
+    margin: 0 5px;
+    color: red;
+}

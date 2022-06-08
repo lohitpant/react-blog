@@ -1,0 +1,57 @@
+.createPostPage {
+    width: 100%;
+    margin-bottom: 20px;
+    /* height: calc(100vh-80px); */
+    display: grid;
+    place-items: center;
+    background-color: #F2E6F0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cpContainer {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cpContainer h1 {
+    text-align: center;
+    color: #b4689b;
+}
+
+.cpContainer label {
+    font-size: 25px;
+    display: block;
+    margin: 5px;
+}
+
+.cpContainer .inputGp {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.inputGroup input {
+    width: 95%;
+}
+
+.cpContainer button {
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 20px auto;
+    background-color: #D291BC;
+    padding: 10px 12px;
+    font-weight: bold;
+}
