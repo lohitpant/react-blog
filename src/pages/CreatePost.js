@@ -28,12 +28,13 @@ function CreatePost() {
                 <h1>Create New Post</h1>
                 <div className='inputGroup'>
                     <label>Title:</label>
-                    <input placeholder='Title' value={title} onChange={e => setTitle(e.target.value)} autoFocus />
+                    <input placeholder='Title' value={title} onChange={e => setTitle(e.target.value)} autoFocus
+                        required />
                 </div>
                 <div className='inputGroup'>
                     <label>Post:</label>
                     <textarea placeholder='Content Goes Here...' rows='15'
-                        value={post} onChange={e => setPost(e.target.value)}></textarea>
+                        value={post} onChange={e => setPost(e.target.value)} required></textarea>
                 </div>
                 <button>Publish Post</button>
             </form>

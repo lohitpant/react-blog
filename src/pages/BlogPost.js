@@ -30,7 +30,7 @@ function BlogPost({ isAuth }) {
                     </span>
                 </button>
             </div>
-            <div>
+            <div className='post-content'>
                 <p>{state.post}</p>
                 <div>@{state.author.name}</div>
             </div>

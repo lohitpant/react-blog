@@ -47,3 +47,36 @@
 .trashIcon {
     font-size: 30px;
 }
+
+@media (max-width:768px){
+
+    .headerContainer {
+        margin-bottom: 20px;
+    }
+
+    .headerContainer h1 {
+        font-size: 25px;
+    }
+
+    .trashIcon {
+        font-size: 25px;
+    }
+
+    .headerContainer img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .headerContainer h1 {
+        font-size: 20px;
+        margin: auto 5px;
+    }
+
+    .post-content p{
+        font-size: 15px;
+    }
+}
