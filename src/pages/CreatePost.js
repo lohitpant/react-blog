@@ -32,7 +32,7 @@ function CreatePost() {
                 </div>
                 <div className='inputGroup'>
                     <label>Post:</label>
-                    <textarea placeholder='Content Goes Here...' rows='15' cols='50'
+                    <textarea placeholder='Content Goes Here...' rows='15'
                         value={post} onChange={e => setPost(e.target.value)}></textarea>
                 </div>
                 <button>Publish Post</button>

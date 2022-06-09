@@ -1,7 +1,6 @@
 .createPostPage {
     width: 100%;
     margin-bottom: 20px;
-    /* height: calc(100vh-80px); */
     display: grid;
     place-items: center;
     background-color: #F2E6F0;
@@ -10,9 +9,9 @@
 }
 
 .cpContainer {
-    border-radius: 12px;
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
 .cpContainer h1 {
@@ -39,6 +38,7 @@
     border-radius: 2px;
     padding: 10px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .inputGroup input {
@@ -54,4 +54,30 @@
     background-color: #D291BC;
     padding: 10px 12px;
     font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .createPostPage {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cpContainer h1 {
+        font-size: 25px;
+    }
+
+    .cpContainer {
+        width: 80%;
+    }
+
+    .inputGroup input,
+    .inputGroup textarea {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .inputGroup label{
+        font-size: 20px;
+    }
 }

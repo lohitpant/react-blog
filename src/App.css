@@ -2,20 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  /* box-sizing: border-box; */
 }
 
 .app {
-  /* height: calc(100% - 80px); */
   position: relative;
   min-height: calc(100vh);
 }
 
 .app-wrapper {
-  /* display: flex; */
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
-  /* min-height: 90%; */
-  /* height: 100%; */
+}
+
+@media (max-width:480px){
+  .app-wrapper{
+    width: 90%;
+  }
 }

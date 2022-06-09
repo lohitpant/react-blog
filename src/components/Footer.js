@@ -7,8 +7,10 @@ function Footer() {
             <div className='footer-content'>
                 <h4>Made with<span className="material-symbols-outlined fav">
                     favorite
-                </span> by Lohit</h4>
+                </span> by Lohit Pant</h4>
+                <p>Send feedback at lohitpant@gmail.com</p>
             </div>
+
         </footer>
     )
 }
